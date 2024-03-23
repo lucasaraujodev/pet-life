@@ -1,8 +1,8 @@
-let elementosDuvida = document.querySelectorAll('.duvida')
+let faqElement = document.querySelectorAll('.faq')
 
-elementosDuvida.forEach(function(duvida) {
-    duvida.addEventListener('click', function(){
-        duvida.classList.toggle('ativa')
+faqElement.forEach(function(faq) {
+    faq.addEventListener('click', function(){
+        faq.classList.toggle('active')
     })
 })
 
