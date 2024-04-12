@@ -1,150 +1,127 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetLife</title>
-    <meta name="description" content="Garanta uma vida longa e cheia e cheia de alegria para o seu melhor amigo.">
+    <link rel="icon" type="image" href="/img/logo.svg">
+    <meta name="description" content="Asegura una vida larga y alegre para tu mejor amigo.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
     <header>
         <a href="index.html">
-            <img src="img/logo-white.svg" alt="Logo Pet Life">
+            <img src="img/logo-white.svg" alt="Pet Life Logo">
         </a>
-        <nav>
-            <a href="#incio">Início</a>
-            <a href="#clinica">Clínica</a>
-            <a href="#farmacia">Farmácia</a>
-            <a href="#duvidas">Dúvidas</a>
+        <nav id="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#clinic">Clínica</a>
+            <a href="#pharmacy">Farmacia</a>
+            <a href="#faq">Preguntas Frecuentes</a>
         </nav>
     </header>
     <main>
-            <!-- Seção de início -->
-        <section id="inicio">
-            <img src="img/start-img.svg" alt="Imagem Principal" width="580" height="580">
+            <!-- home section -->
+        <section id="home">
+            <img src="img/start-img.svg" alt="Main Image" width="580" height="580">
             <div>
-                <h1>Garanta uma vida longa e cheia de alegria para o seu melhor amigo</h1>
-                <p class="paragrafo">
-                    A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais
-                    dedicados e serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo
-                    o bem-estar, a saúde e a felicidade dos seus animais de estimação.
+                <h1>Asegura una vida larga y alegre para tu mejor amigo</h1>
+                <p class="paragraph">
+                    PetLife es tu refugio de confianza para el cuidado completo de tu mascota. Con profesionales dedicados y servicios integrales, ofrecemos una experiencia acogedora y personalizada, asegurando el bienestar, la salud y la felicidad de sus mascotas.   
                 </p>
-                <a class="botao" href="#" target="_blank">Marque uma consulta</a>
-                <a class="botao-transparente" href="#clinica">Conheça nossa clínica</a>
+                <a class="button" href="#" target="_blank">Agendar una cita</a>
+                <a class="transparent-button" href="#clinic">Descubre nuestra clínica</a>
             </div>
             <img class="absolute" src="img/shape.svg" alt="">
         </section>
-            <!-- Seção de clínica -->
-        <section id="clinica">
+            <!-- clinic section -->
+        <section id="clinic">
             <div>
-                <h2>Cuidado Veterinário de Qualidade</h2>
-                <p class="paragrafo">
-                    Nossa clínica veterinária é o local onde a paixão pelos animais se une à excelência em cuidados veterinários.
-                    Sob a liderança da Dra. Vivien Reid, uma profissional altamente qualificada e comprometida, oferecemos
-                    serviços de saúde e bem-estar para animais de estimação de todas as espécies. Venha conhecer nossa clínica e desfrute
-                    da atenção personalizada e do carinho que seu pet merece.
+                <h2>Atención Veterinaria de Calidad</h2>
+                <p class="paragraph">
+                    Nuestra clínica veterinaria es el lugar donde la pasión por los animales se une a la excelencia en la atención veterinaria. Bajo el liderazgo de la Dra. Vivien Reid, una profesional altamente calificada y comprometida, brindamos servicios de salud y bienestar para mascotas de todas las especies. Ven a visitar nuestra clínica y disfruta de la atención personalizada y el cariño que tu mascota se merece.
                 </p>
                 <ul>
-                    <li>Consultas de rotina e exames de saúde abrangentes</li>
-                    <li>Vacinação e imunização</li>
-                    <li>Cirurgias e procedimentos veterinários</li>
-                    <li>Tratamento e controle de doenças</li>
-                    <li>Odontologia veterinária</li>
-                    <li>Atendimento de emergência 24 horas</li>
-                    <li>Nutrição e aconselhamento alimentar personalizado</li>
+                    <li>Citas de rutina y exámenes de salud integrales</li>
+                    <li>Vacunación e inmunización</li>
+                    <li>Cirugías y procedimientos veterinarios.</li>
+                    <li>Tratamiento y control de enfermedades.</li>
+                    <li>Odontología veterinaria</li>
+                    <li>Servicio de emergencia las 24 horas</li>
+                    <li>Asesoramiento personalizado en nutrición y dietética</li>
                 </ul>
             </div>
             <img src="img/clinic-img.svg" alt="" width="480" height="480" loading="lazy">
         </section>
-            <!-- Seção de farmácia -->
-        <section id="farmacia">
-            <h2>Venha conferir o nosso petshop e farmácia</h2>
-            <img src="img/shop-img.svg" alt="" width="645" height="430" loading="lazy">
-            <p class="paragrafo">
-                Além de ser uma clínica veterinária de confiança, também contamos com um completo petshop e farmácia. Nosso
-                petshop oferece uma ampla seleção de produtos de alta qualidade, desde alimentos balanceados e petiscos
-                deliciosos até brinquedos divertidos e acessórios elegantes para o seu pet. Na nossa farmácia, você encontrará
-                uma variedade de medicamentos, produtos de cuidados e suplementos recomendados pelos nossos veterinários,
-                garantindo que o bem-estar e a saúde do seu amado pet estejam sempre em boas mãos. Tudo o que você precisa para
-                cuidar e mimar o seu pet está aqui, no nosso petshop e farmácia, com a mesma dedicação e qualidade que nos
-                tornou referência na área veterinária.
+            <!-- pharmacy section -->
+        <section id="pharmacy">
+            <h2>Ven a conocer nuestra tienda de mascotas y farmacia</h2>
+            <img src="img/shop-img.svg" alt="Pharmacy Image" width="645" height="430" loading="lazy">
+            <p class="paragraph">
+                Además de ser una clínica veterinaria de confianza, también disponemos de una completa tienda de animales y farmacia. Nuestra tienda de mascotas ofrece una amplia selección de productos de alta calidad, desde alimentos y snacks equilibrados hasta divertidos juguetes y elegantes accesorios para tu mascota. En nuestra farmacia encontrará una gran variedad de medicamentos, productos para el cuidado y complementos recomendados por nuestros veterinarios, garantizando que el bienestar y la salud de su querida mascota estén siempre en buenas manos. Todo lo que necesitas para el cuidado y mimo de tu mascota está aquí, en nuestra tienda y farmacia, con la misma dedicación y calidad con la que nos convertimos en un referente en el sector veterinario.
             </p>
         </section>
-            <!-- Seção de perguntas frequentes -->
-        <section id="duvidas">
-            <img src="img/faq-img.svg" alt="" width="540" height="540" loading="lazy">
+            <!-- faq section -->
+        <section id="faq">
+            <img src="img/faq-img.svg" alt="FAQ" width="540" height="540" loading="lazy">
             <div>
-            <h2>Ficou alguma dúvida?</h2>
-            <div class="duvida">
-                <h3>Quais serviços são oferecidos pela clínica da PetLife?</h3>
-                <img src="img/arrow-down.svg" alt="">
-                <p class="paragrafo">
-                A clínica da PetLife oferece uma ampla gama de serviços, incluindo consultas de rotina, vacinação,
-                cirurgias,
-                tratamento de doenças, cuidados odontológicos, atendimento de emergência 24 horas, programas de prevenção de
-                pulgas, carrapatos e vermes, entre outros. Nosso objetivo é fornecer cuidados abrangentes e personalizados
-                para garantir a saúde e o bem-estar do seu pet.
+            <h2>¿Queda alguna pregunta?</h2>
+            <div class="faq">
+                <h3>¿Qué servicios ofrece la clínica PetLife?</h3>
+                <img src="img/arrow-down.svg" alt="question number 1">
+                <p class="paragraph">
+                    La clínica PetLife ofrece una amplia gama de servicios, que incluyen citas de rutina, vacunas, cirugías, tratamiento de enfermedades, atención dental, atención de emergencia las 24 horas, programas de prevención de pulgas, garrapatas y gusanos, entre otros. Nuestro objetivo es brindar una atención integral y personalizada para garantizar la salud y el bienestar de su mascota.
                 </p>
             </div>
-            <div class="duvida">
-                <h3>Quais espécies de animais a clínica veterinária atende?</h3>
-                <img src="img/arrow-down.svg" alt="">
-                <p class="paragrafo">
-                A clínica veterinária da PetLife atende animais de estimação de todas as espécies, incluindo cães, gatos,
-                pássaros, roedores e répteis. Nossos profissionais possuem conhecimento e experiência para cuidar de
-                diferentes tipos de animais, oferecendo um atendimento especializado e dedicado a cada um deles.
+            <div class="faq">
+                <h3>¿Qué especies de animales atiende la clínica veterinaria?</h3>
+                <img src="img/arrow-down.svg" alt="question number 2">
+                <p class="paragraph">
+                    La clínica veterinaria de PetLife trata mascotas de todas las especies, incluidos perros, gatos, pájaros, roedores y reptiles. Nuestros profesionales tienen el conocimiento y la experiencia para cuidar diferentes tipos de animales, ofreciendo un cuidado especializado y dedicado para cada uno de ellos.
                 </p>
             </div>
-            <div class="duvida">
-                <h3>A clínica da PetLife possui serviços de emergência?</h3>
-                <img src="img/arrow-down.svg" alt="">
-                <p class="paragrafo">
-                Sim, a clínica veterinária da PetLife oferece serviços de emergência 24 horas. Se o seu animal de estimação
-                precisar de atendimento veterinário imediato fora do horário de expediente, nossa equipe está pronta para
-                ajudar, fornecendo cuidados urgentes e tratamento adequado para garantir o bem-estar do seu pet.
+            <div class="faq">
+                <h3>¿La clínica PetLife cuenta con servicios de emergencia?</h3>
+                <img src="img/arrow-down.svg" alt="question number 3">
+                <p class="paragraph">
+                    Sí, la clínica veterinaria PetLife ofrece servicios de urgencias las 24 horas. Si su mascota necesita atención veterinaria inmediata fuera del horario de oficina, nuestro equipo está listo para ayudarlo, brindándole atención urgente y el tratamiento adecuado para garantizar el bienestar de su mascota.
                 </p>
             </div>
-            <div class="duvida">
-                <h3>A clínica oferece serviços de banho e tosa?</h3>
-                <img src="img/arrow-down.svg" alt="">
-                <p class="paragrafo">
-                Sim, a clínica veterinária da PetLife oferece serviços profissionais de banho e tosa. Nossa equipe de
-                profissionais experientes garante que seu pet receba cuidados adequados, usando produtos de alta qualidade e
-                técnicas seguras. O banho e tosa ajudam a manter a higiene, a saúde da pele e pelagem do seu pet, além de
-                proporcionar uma experiência relaxante e agradável para eles.
+            <div class="faq">
+                <h3>¿La clínica ofrece servicios de baño y aseo?</h3>
+                <img src="img/arrow-down.svg" alt="question number 4">
+                <p class="paragraph">
+                    Sí, la clínica veterinaria PetLife ofrece servicios profesionales de baño y aseo. Nuestro equipo de profesionales experimentados garantiza que su mascota reciba la atención adecuada utilizando productos de alta calidad y técnicas seguras. El baño y el aseo ayudan a mantener la higiene, la salud de la piel y el pelaje de tu mascota, además de proporcionarle una experiencia relajante y placentera.
                 </p>
             </div>
             </div>
         </section>
     </main>
-        <!-- Rodapé -->
+        <!-- footer -->
     <footer>
         <div>
             <img src="img/logo.svg" alt="PetLife">
-            <p>Cuidando com amor, vivendo com alegria: PetLife, onde a vida dos pets é mais feliz!</p>
+            <p>Cuidar con amor, vivir con alegría: PetLife, ¡donde la vida de las mascotas es más feliz!</p>
         </div>
         <div>
-            <strong class="titulo">Links rápidos</strong>
-                <a href="#inicio">Início</a>
-                <a href="#clinica">Clínica</a>
-                <a href="#farmacia">Farmácia</a>
-                <a href="#duvidas">Dúvidas</a>
+            <strong class="title">Enlaces Rápidos</strong>
+                <a href="#home">Inicio</a>
+                <a href="#clinic">Clínica</a>
+                <a href="#pharmacy">Farmacia</a>
+                <a href="#faq">Preguntas Frecuentes</a>
         </div>
         <div>
-            <strong class="titulo">Encontre-nos</strong>
-                <p>WhatsApp: (22) 98765-4321</p>
-                <p>Email: contato@petlife.com.br</p>
-                <p>Endereço: Av. 7 de Setembro, nº 42, Centro</p>
+            <strong class="title">Encuéntranos</strong>
+                <a href="https://api.whatsapp.com/send?phone=541153367247" target="_blank"><p>Contacto: +54 11 5336-7247</p></a>
+                <a href="https://universal.org.ar/contacto/" target="_blank"><p>Email: contacto@petlife.com</p></a>
+                <a href="https://universal.org.ar/direcciones/" target="_blank"><p>Dirección: Av. Corrientes 4070 Almagro</p></a>
         </div>
     </footer>
   <div id="copyright">
-    Desenvolvido por <a href="https://github.com/lucasaraujodev" target="_blank">@lucasaraujodev</a> na trilha Start na Programação 🤘 da OneBitCode.
+    Desarrollado por <a href="https://github.com/lucasaraujodev" target="_blank">@lucasaraujodev</a> en la pista Iniciar Programación 🤘 de OneBitCode.
   </div>
   <script src="js/script.js"></script>
 </body>

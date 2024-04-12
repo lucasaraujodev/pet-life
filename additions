@@ -1,7 +1,7 @@
 (✅) separe original from the new one with additions
-(⚠) pt, en, es pages 
+(✅) pt, en, es pages (tranlated, missing languages-change buttons)
 (✅) change all classes/divs/comments to english
-( ) add favicon on title-head
-( ) add hover on buttons and links
+(✅) add favicon on title-head
+(✅) add hover on buttons and links
 ( ) make responsive
-( ) add some scroll interactivity of navbar items
+(✅) add some scroll interactivity of navbar items

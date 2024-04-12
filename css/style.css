@@ -22,6 +22,11 @@ header nav a {
     font-weight: 600;
     padding: 32px;
     text-decoration: none;
+    cursor: pointer;
+}
+
+header nav a:hover {
+    color: #CE5647;
 }
 
 #home {
@@ -50,13 +55,24 @@ h2 {
     color: #FFFFFF;
     padding: 16px 32px;
     text-decoration: none;
+    cursor: pointer;
 }
+
+.button:hover {
+    background-color: #CE5647;
+}
+
 
 .transparent-button {
     background-color: transparent;
     color: #FF725E;
     padding: 16px 32px;
     text-underline-offset: 4px;
+    cursor: pointer;
+}
+
+.transparent-button:hover {
+    color: #e05d4b;
 }
 
 .absolute {
@@ -105,11 +121,16 @@ h2 {
     padding: 24px;
 }
 
+.faq h3:hover {
+    color: #FF725E;
+}
+
 .faq img {
     position: absolute;
     top: 32px;
     right: 24px;
 }
+
 
 .faq .paragraph {
     border-right: 1px solid #FF725E;
@@ -152,6 +173,10 @@ footer a {
     text-decoration: none;
 }
 
+footer a:hover {
+    color:#FF725E;
+}
+
 footer p {
     margin-bottom: 16px;
     max-width: 350px;
@@ -171,4 +196,8 @@ footer p a {
 
 #copyright a {
     color: #FA9A6C;
+}
+
+#copyright a:hover {
+    color: #CE5647;
 }
